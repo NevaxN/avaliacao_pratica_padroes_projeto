@@ -1,9 +1,16 @@
 package Questao05;
 
+/**
+ * Aqui a gente vê como o uso do padrão simplificou a vida do cliente.
+ * Não há nenhum 'new ModeloCurriculo()' aqui. A criação de objetos
+ * está totalmente abstraída.
+ */
 public class Main {
     public static void main(String[] args) {
         System.out.println("--- Gerando documentos a partir de protótipos ---\n");
 
+        // Note que eu não preciso saber qual é a classe concreta, só peço ao
+        // catálogo um clone do protótipo identificado pela chave "CURRICULO_PADRAO".
         Documento curriculoArthur = DocumentoRegistry.getDocumento("CURRICULO_PADRAO");
 
         curriculoArthur.setCor("Verde Oliva");
