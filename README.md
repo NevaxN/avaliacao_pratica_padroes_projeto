@@ -3,8 +3,6 @@ Avaliação Prática Pradrões de Proejto 1° Bimestre
 
 # Justificativa dos Padrões de Projeto Aplicados
 
-Este documento detalha o raciocínio por trás da escolha de cada Padrão de Projeto para resolver os problemas apresentados no trabalho prático.
-
 ## Questão 1: Sistema de Tarifas de Logística
 
 *Padrão Escolhido: Herança e Polimorfismo*
